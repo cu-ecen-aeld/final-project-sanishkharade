@@ -14,6 +14,7 @@ case "$1" in
 		/usr/bin/scull_unload
 		/usr/bin/module_unload faulty
 		rmmod hello
+		# modprobe -r hello
 		;;
 	*)
 		echo "Usage: $0 {start|stop}"
