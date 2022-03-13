@@ -2,8 +2,12 @@
 
 echo "Entering directory buildroot"
 cd buildroot/
-echo "Rebuilding ldd package"
-make ldd-rebuild
+#echo "Rebuilding ldd package"
+#make ldd-rebuild
+echo "Rebuilding aesd-assignments package"
+make aesd-assignments-rebuild
+echo "Rebuilding aesd-char-device package"
+make aesd-char-device-rebuild
 echo "Exiting directory buildroot"
 cd ..
 echo "Running build.sh"
