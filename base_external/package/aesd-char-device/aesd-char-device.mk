@@ -19,7 +19,7 @@ AESD_CHAR_DEVICE_GIT_SUBMODULES = YES
 # / because its a folder
 #LDD_MODULE_SUBDIRS = misc-modules/
 AESD_CHAR_DEVICE_MODULE_SUBDIRS = aesd-char-driver/
-#AESD_CHAR_DEVICE_OVERRIDE_SRCDIR = /home/sanish/AESD/assignment-8-sanishkharade
+AESD_CHAR_DEVICE_OVERRIDE_SRCDIR = /home/sanish/AESD/assignment-8-sanishkharade
 
 
 #define AESD_ASSIGNMENTS_BUILD_CMDS
