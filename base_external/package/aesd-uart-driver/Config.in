@@ -1,0 +1,5 @@
+config BR2_PACKAGE_AESD_UART_DRIVER
+	bool "aesd-uart-driver"
+	help
+	  Includes the aesd char device in the kernel image.
+	  Used to understand buildroot external trees and package builds.
