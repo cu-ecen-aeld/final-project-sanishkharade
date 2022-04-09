@@ -40,7 +40,7 @@ index e13aed0963..51a6be7ed5 100644
  	cpsw_default: cpsw_default {
 		pinctrl-single,pins = <
  			/* Slave 1 */
-@@ -195,6 +216,38 @@
+@@ -195,6 +216,30 @@
  	status = "okay";
  };
  
@@ -48,14 +48,6 @@ index e13aed0963..51a6be7ed5 100644
 +	 compatible = "serial";
 +    pinctrl-names = "default";
 +    pinctrl-0 = <&uart1_pins>;
-+
-+    status = "okay";
-+};
-+
-+&uart2 {
-+	 compatible = "serial";
-+    pinctrl-names = "default";
-+    pinctrl-0 = <&uart2_pins>;
 +
 +    status = "okay";
 +};
