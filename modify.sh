@@ -13,6 +13,9 @@ cd buildroot/
 echo "Rebuilding aesd-uart-driver package"
 make aesd-uart-driver-rebuild
 
+echo "Rebuilding aesd-socket package"
+make aesd-socket-rebuild
+
 echo "Rebuilding aesd-gpio package"
 make aesd-gpio-rebuild
 
