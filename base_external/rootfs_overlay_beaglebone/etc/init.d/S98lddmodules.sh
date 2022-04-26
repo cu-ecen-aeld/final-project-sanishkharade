@@ -9,6 +9,9 @@ case "$1" in
 		#/usr/bin/scull_load
 		modprobe hello
 
+		echo "Loading aesduart module"
+		insmod /lib/modules/4.19.79/extra/aesduart.ko
+
 		echo "Loading aesdchar module"
 		/usr/bin/aesdchar_load
 		;;
@@ -17,7 +20,10 @@ case "$1" in
 		#/usr/bin/module_unload faulty
 		#/usr/bin/scull_unload
 		rmmod hello
-		
+
+		echo "Unloading aesduart module"
+		rmmod /lib/modules/4.19.79/extra/aesduart.ko
+
 		echo "Unloading aesdchar module"
 		/usr/bin/aesdchar_unload
 		# modprobe -r hello
