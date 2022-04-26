@@ -6,7 +6,7 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
-AESD_GPIO_VERSION = 285426943e3c9dae9dbd81fce3b53d4357805118
+AESD_GPIO_VERSION = 54138b4b6a84b97b435866263bd6b555a0d8ea18
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
