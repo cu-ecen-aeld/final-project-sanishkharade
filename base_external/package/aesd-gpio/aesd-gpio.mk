@@ -6,7 +6,7 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
-AESD_GPIO_VERSION = 1fe005069dc121381df1d796d0827d7dd93f9c27
+AESD_GPIO_VERSION = 285426943e3c9dae9dbd81fce3b53d4357805118
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
@@ -16,7 +16,7 @@ AESD_GPIO_GIT_SUBMODULES = YES
 
 
 AESD_GPIO_MODULE_SUBDIRS = gpio_test/
-AESD_GPIO_OVERRIDE_SRCDIR = /home/sanish/AESD/final-project/final-project-kamini2801/
+#AESD_GPIO_OVERRIDE_SRCDIR = /home/sanish/AESD/final-project/final-project-kamini2801/
 
 define AESD_GPIO_BUILD_CMDS
 	$(MAKE) $(TARGET_CONFIGURE_OPTS) -C $(@D)/gpio_test all

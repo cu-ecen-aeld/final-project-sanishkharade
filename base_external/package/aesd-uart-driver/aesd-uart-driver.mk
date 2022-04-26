@@ -6,7 +6,7 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference your assignment 7 git contents
-AESD_UART_DRIVER_VERSION = 14cb5e63f995c41522949602b8aa9aaca35d86e1
+AESD_UART_DRIVER_VERSION = 285426943e3c9dae9dbd81fce3b53d4357805118
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
@@ -19,7 +19,7 @@ AESD_UART_DRIVER_GIT_SUBMODULES = YES
 # / because its a folder
 #LDD_MODULE_SUBDIRS = misc-modules/
 AESD_UART_DRIVER_MODULE_SUBDIRS = aesd-uart-driver/
-AESD_UART_DRIVER_OVERRIDE_SRCDIR = /home/sanish/AESD/final-project/final-project-kamini2801
+#AESD_UART_DRIVER_OVERRIDE_SRCDIR = /home/sanish/AESD/final-project/final-project-kamini2801
 
 
 #define AESD_ASSIGNMENTS_BUILD_CMDS
